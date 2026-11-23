@@ -1,7 +1,7 @@
 
 module.exports = function(RED) {
 
-    function EsrahsinNode(config) {
+    function EsraaNode(config) {
 
         RED.nodes.createNode(this, config);
 
@@ -9,12 +9,13 @@ module.exports = function(RED) {
 
         node.on('input', function(msg) {
 
-            msg.payload = "Esrahsin";
+            msg.payload = "esra";
+
             node.send(msg);
 
         });
     }
 
-    RED.nodes.registerType("esrahsin", EsrahsinNode);
+    RED.nodes.registerType("esraa", EsraaNode);
 
 }

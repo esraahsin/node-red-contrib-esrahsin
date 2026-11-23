@@ -1,10 +1,10 @@
 {
-  "name": "red-contrib-esraHsin",
+  "name": "red-contrib-esra",
   "version": "1.0.0",
   
 "node-red": {
     "nodes": {
-        "esrahsin": "node.js"
+        "esraa": "node.js"
     }
 }
 
