@@ -1,0 +1,31 @@
+
+<script type="text/javascript">
+
+RED.nodes.registerType('esrahsin',{
+    category: 'function',
+    color: '#a6bbcf',
+    defaults: {
+        name: {value:""}
+    },
+    inputs:1,
+    outputs:1,
+    icon: "file.png",
+    label: function() {
+        return this.name || "esrahsin";
+    }
+});
+
+</script>
+
+<script type="text/html" data-template-name="esrahsin">
+    <div class="form-row">
+        <label for="node-input-name">Name</label>
+        <input type="text" id="node-input-name"
+        placeholder="Name">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="esrahsin">
+    <p>A simple node that converts message payloads
+    into lower-case characters</p>
+</script>
